@@ -1,0 +1,20 @@
+#container {
+    width: 100%;
+    height: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #f1f1f1;
+    border: black 1px solid;
+}
+
+.box {
+    height: 40%;
+    margin: 10px;
+    background-color: #fff;
+    border: black 1px solid;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
