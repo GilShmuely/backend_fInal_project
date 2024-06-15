@@ -1,21 +1,30 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Main Dashboard</title>
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="main-dash.css">
 </head>
+
 <body>
-    <div id="container"></div>
-    <button>Add product</button>
-    <script src="main-dash.js"></script>
+    <div class="flex-container">
+        <div id="container"></div>
+        <div class="filter">
+            <button>Add product</button>
+            <input type="text" id="max-price" placeholder="Enter filter keyword">
+            <button onclick="updateProducts()">Filter</button>
+            <button id="fetch-product-button">Get Random Product</button>
+            <button id="deleteBtn">delete all documents</button>
+        </div>
+    </div>
+    <script type="module" src="main-dash.js"></script>
 </body>
+
 </html>
 
-<input type="text" id="max-price" placeholder="Enter filter keyword">
-<button onclick="updateProducts()">Filter</button>
 
 <script>
-    
+
 </script>
