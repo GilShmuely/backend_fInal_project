@@ -66,7 +66,8 @@ body {
     font-size: 16px;
 }
 
-.form-container button {
+.form-container button,
+.form-container input[type="submit"] {
     width: 100%;
     padding: 10px;
     border: none;
@@ -80,6 +81,9 @@ body {
 
 .form-container button:hover {
     background-color: #0056b3;
+}
+.form-container img{
+   margin-bottom: 10px;
 }
 .product-container {
     background-color: #fff;
@@ -111,6 +115,11 @@ body {
 
 .product-container img {
     max-width: 100%;
+    height: auto;
+    border-radius: 4px;
+}
+img {
+    max-width: 300px;
     height: auto;
     border-radius: 4px;
 }

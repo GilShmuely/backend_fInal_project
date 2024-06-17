@@ -26,8 +26,8 @@ async function registerUser() {
     try {
         const userCredential = await createUserWithEmailAndPassword(auth, email, password);
         console.log('User created' + userCredential.user);
-        alert('User created, transfering to login page');
-        window.location.href = "login.html";
+        alert('User created, transfering to main page');
+        window.location.href = "main-dash.html";
     } catch (e) {
         console.error('Error signing up' + e);
         alert(e.message);

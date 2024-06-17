@@ -29,3 +29,4 @@ async function loginUser() {
     }
 }
 document.getElementById("signin-button").addEventListener("click", loginUser);
+document.getElementById("signup-button").addEventListener("click",function() {window.location.href = "sign_up.html"});
